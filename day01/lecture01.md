@@ -41,13 +41,20 @@ Ensure you have gone through requirements documentation
 
 #### Task 2 [IAM] : Create a super account policy that give power users "Root" permission. This will be assigned to the DevOps team. Call it 'DevOps-Access'
 
-    cat /etc/*release*
-    uname -r ; uname -a
+ ```{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Action": "*",
+            "Resource": "*"
+        }
+    ]
+}
 
+```
 #### Task 3 [IAM]:  Create two user accounts; developer01 and devops01. Assign 'AWSCodeBuildDeveloperAccess' policy to 'developer01' and 'Devops-Access' to 'devops01'
 
-    hostname ; uname -n
-    ip address ; ifconfig
 
 #### Task 4 [AWS CLI]: Install AWS CLI on your local machine. Use the link provided in Dropbox to install
 - After installing, go on the command line, type 'aws', to confirm it's been successfully installed
