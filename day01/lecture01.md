@@ -41,7 +41,8 @@ Ensure you have gone through requirements documentation
 
 #### Task 2 [IAM] : Create a super account policy that give power users "Root" permission. This will be assigned to the DevOps team. Call it 'DevOps-Access'
 
- ```{
+ ```
+ {
     "Version": "2012-10-17",
     "Statement": [
         {
