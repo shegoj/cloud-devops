@@ -91,6 +91,6 @@ Ensure you have gone through requirements documentation
 - http://archive.apache.org/dist/httpd/binaries/win32/apache_2.2.13-win32-x86-no_ssl.msi
 
 
-#### Task 10: Create  Amazon Linux VM instance and log to it
+#### Task 10: Create  Amazon Linux VM instance and log on it.
 
 
