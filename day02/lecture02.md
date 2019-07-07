@@ -48,7 +48,7 @@ Ensure you have gone through requirements documentation
 - Configure the load balancer accordingly
 
 
-###  Task 14 [EBS ] : Due to high traffic envisaged, configure Apache to log error informtion to a new mount/drive. Call this new drive d:\, create a log directory ( logs), then point Apache to use it
+###  Task 14 [EBS ] : Due to high traffic envisaged, configure Apache to log error information to a new mount/drive. Call this new drive d:\, create a log directory ( logs), then point Apache to use it
 
 - Here discuss how this is configured and possible use cases.
 
